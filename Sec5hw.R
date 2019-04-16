@@ -70,7 +70,7 @@ qplot(data=merged2013, x=Fertility.Rate, y=Life.Exp,
       main="Life Expectancy vs Fertility (2013)" #title
 )
 
-
+![image]<blockquote class="imgur-embed-pub" lang="en" data-id="YoNR5I7"><a href="//imgur.com/YoNR5I7">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 
 
