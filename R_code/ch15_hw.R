@@ -14,7 +14,7 @@ deck
 
 ch15_2 <- function( )
 {
-    cat("½Ð¿é¤J1~10¤º¤§¼Æ­È¸ê®Æ¡A­Y·Qµ²§ô¡A½Ð«öEnter")
+    cat("è«‹è¼¸å…¥1~10å…§ä¹‹æ•¸å€¼è³‡æ–™ï¼Œè‹¥æƒ³çµæŸï¼Œè«‹æŒ‰Enter")
     x1 <- scan()
     x2 <- sample(1:10, 1, replace = T,c(1 ,2 , 3, 4, 5, 6, 7, 8, 9, 10))
     x3 <- "abc"
@@ -98,7 +98,7 @@ ch15_8 <- function( )
 {
     mycar <- within(mtcars, 
                     cyl <- factor(cyl, levels = c(4, 6, 8),
-                                  labels = c("¥|¨T¬û", "¤»¨T¬û", "¤K¨T¬û")))
+                                  labels = c("å››æ±½ç¼¸", "å…­æ±½ç¼¸", "å…«æ±½ç¼¸")))
     x <- with(mycar, tapply(hp, cyl, mean))
     print(x)
 }
