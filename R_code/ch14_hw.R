@@ -17,7 +17,7 @@ ch14_2 <- function( )
 
 ch14_3 <- function()
 {
-    x1 <- scan("C:/Users/veryv/OneDrive/�ୱ/Exercise.txt", sep = ",")
+    x1 <- scan("C:/Users/veryv/OneDrive/®à­±/Exercise.txt", sep = ",")
     cat("Sum=", sum(x1), "\n")
     cat("Mean=", mean(x1), "\n")
     cat("Max=", max(x1), "\n")
@@ -27,7 +27,7 @@ ch14_3()
 
 ch14_4 <- function()
 {
-    x1 <- scan("C:/Users/veryv/OneDrive/�ୱ/Exercise.txt", sep = ",")
+    x1 <- scan("C:/Users/veryv/OneDrive/®à­±/Exercise.txt", sep = ",")
     cat("Sum=", sum(x1),"\n","Mean=", mean(x1),"\n",
         "Max=", max(x1),"\n","Min=", min(x1),file = "~/exer14_3.txt")
 }
@@ -36,7 +36,7 @@ ch14_4()
 
 ch14_5 <- function( )
 {
-    excel <- file.path("C:/Users/veryv/OneDrive/�ୱ/Test.csv")
+    excel <- file.path("C:/Users/veryv/OneDrive/®à­±/Test.csv")
     xCSV <- read.csv(excel, sep = ",")
     tea.info <- matrix(c(tapply(xCSV$Quantity, xCSV$Product, sum),
                          tapply(xCSV$Revenue, xCSV$Product, sum)),
